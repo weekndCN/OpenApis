@@ -8,7 +8,7 @@ import (
 
 func main() {
 	// You should replace the webhook here with your own.
-	webhook := "https://oapi.dingtalk.com/robot/send?access_token=d55abc1615863bb85db09857132ca76c14e760d67caa0c76b8f4f69b3b5a4ea6"
+	webhook := "https://oapi.dingtalk.com/robot/send?access_token=xxx"
 	robot := dingtalk.NewRobot(webhook)
 
 	title := "乔布斯 20 年前想打造一间苹果咖啡厅，而它正是 Apple Store 的前身"
