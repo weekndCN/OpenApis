@@ -7,7 +7,7 @@ import (
 )
 
 func testQuery() {
-	lokiURL := "http://101.132.252.188:30001/loki/api/v1/labels"
+	lokiURL := "http://xxxx/loki/api/v1/labels"
 	loki := loki.NewLoki(lokiURL)
 	err := loki.Query(lokiURL)
 	if err != nil {
@@ -16,7 +16,7 @@ func testQuery() {
 }
 
 func testQueryRange() {
-	lokiURL := "http://101.132.252.188:30001/loki/api/v1/labels"
+	lokiURL := "http://xxxx/loki/api/v1/labels"
 	loki := loki.NewLoki(lokiURL)
 	err := loki.QueryRange(lokiURL)
 	if err != nil {
